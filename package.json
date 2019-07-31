@@ -1,0 +1,17 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "App that displays the current weather based on inputted location.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo: \"Error\""
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Phil Shin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
