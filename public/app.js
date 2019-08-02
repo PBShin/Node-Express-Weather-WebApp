@@ -23,13 +23,13 @@ class App extends React.Component {
     consructor(props) {
         super(props);
         this.state = {
-            city=server.weather
+            weather=server.weather
         }
     }
 
     render () {
         return (
-            <Form city={this.state.city}/>
+            <Form weather={this.state.weather}/>
         )
     }
 }
